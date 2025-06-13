@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #212121;
+  font-family: sans-serif;
+}
+
+nav {
+  box-shadow: 0 0.3rem 2rem black;
+  padding: 1rem;
+  color: rgb(181, 178, 178);
+}
+nav::first-letter {
+  color: gold;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(./assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+  background-color: #262323;
+  display: flex;
+  border-radius: 1rem 0.4rem;
+  box-shadow: 0 0 2rem;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 60%;
+  min-width: 300px;
+}
+label:focus-visible, label:focus-within {
+  outline: 0.1rem solid gold;
+}
+label button {
+  background-color: gold;
+  border: none;
+  border-radius: 1rem 0.4rem;
+  padding-inline: 1rem;
+  cursor: pointer;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem 0 0 0.4rem;
+  color: rgb(181, 178, 178);
+  flex-grow: 1;
+}
+input:focus-visible {
+  outline: none;
+}/*# sourceMappingURL=styles.css.map */
