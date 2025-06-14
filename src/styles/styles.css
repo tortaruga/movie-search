@@ -163,4 +163,18 @@ h2 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+footer {
+  font-size: 0.8rem;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  display: inline;
+  color: gold;
+  font-weight: bold;
+}
+footer a:hover {
+  color: goldenrod;
 }/*# sourceMappingURL=styles.css.map */

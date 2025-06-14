@@ -1,10 +1,8 @@
-
 import { Route, Routes, Link } from "react-router-dom";
 import MovieDetails from "./components/MovieDetails.jsx";
 import Form from "./components/Form.jsx";
 
 function App() {
-
   return (
     <>
       <main>
@@ -20,7 +18,9 @@ function App() {
 
       </main>
 
-      <footer></footer>
+      <footer>
+        <p>This project is built with <a href="https://www.omdbapi.com/" target="_blank">OMDb API</a>.</p>
+      </footer>
     </>
   )
 }

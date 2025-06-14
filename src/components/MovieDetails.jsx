@@ -23,11 +23,11 @@ export default function MovieDetails(props) {
             </div>
 
             <div className="subgroup">
-            <h1>{data?.Title} ({data?.Year})</h1>
+            <h1>{data?.Title === 'N/A' ? '–' : data?.Title} ({data?.Year === 'N/A' ? '–' : data?.Year})</h1>
             <div className="main-info">
-               <p className="genre">{data?.Genre}</p>
-               <p className="runtime">{data?.Runtime}</p>
-               <p className="type">{data?.Type}</p>
+               <p className="genre">{data?.Genre === 'N/A' ? '–' : data?.Genre}</p>
+               <p className="runtime">{data?.Runtime === 'N/A' ? '–' : data?.Runtime}</p>
+               <p className="type">{data?.Type === 'N/A' ? '–' : data?.Type}</p>
             </div>
 
             <h2>Plot</h2>
